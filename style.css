@@ -103,3 +103,20 @@ table td,table th{
     justify-content: center;
     align-items: center;
 }
+#winning-message{
+    height: 4rem;
+    width: 14rem;
+    background-color: rgba(81, 245, 5, 0.999);
+    text-align: center;
+    border-radius: 10px;
+    
+    text-decoration: underline;
+    top: 0;
+    color: black;
+    border: none;
+    left: 50%;
+
+}
+#winning-message::backdrop{
+    background: rgba(4, 4, 4, 0.433);
+}
