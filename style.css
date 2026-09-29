@@ -1,3 +1,4 @@
+
 *{
     margin: 0px;
     padding: 0px;
@@ -10,7 +11,7 @@ body{
 }
 h1{
     height: 3rem;
-    width: 100vw;
+    width: 100%;
     background-color: rgba(241, 217, 217, 0.717);
     box-shadow: inset 0px -1px 5px  rgba(182, 133, 133, 0.631);
     color: rgb(0, 0, 0);
@@ -21,7 +22,7 @@ h1{
 }
 .options{
     height: 5rem;
-    width: 100vw;
+    width: 100%;
     background-color:  rgba(233, 123, 96, 0.941);
     padding: 1rem;
     display: flex;
@@ -51,6 +52,7 @@ h1{
     width: 100%;
     display: flex;
     justify-content: space-around;
+    align-items: start;
 
 }
 .container{
@@ -109,14 +111,47 @@ table td,table th{
     background-color: rgba(81, 245, 5, 0.999);
     text-align: center;
     border-radius: 10px;
-    
     text-decoration: underline;
+    position: fixed;
     top: 0;
     color: black;
     border: none;
-    left: 50%;
+     top: 0%;
+  left: 50%;
+  transform: translate(-50%,0%);
 
 }
 #winning-message::backdrop{
     background: rgba(4, 4, 4, 0.433);
+}
+@media (max-width : 700px){
+    h1{
+    height: 3rem;
+    font-size: 2rem;
+    width: 100%;
+   display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+
+}
+.options{
+    height: 4rem;
+    width: 100%;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 3.5px;
+}
+.modes p1, .modes p2{
+    height: 8px; 
+    margin: 0px;
+    padding: 3px;
+}
+.main-display{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
 }
