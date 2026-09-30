@@ -1,5 +1,12 @@
-# project-no-2-Tic-Tac-Toe-game
+# Live URL
+
+https://kailash-karki-01.github.io/project-no-2-Tic-Tac-Toe-game/
 <br>
+
+# project-no-2-Tic-Tac-Toe-game
+
+<br>
+
 # 🎮 Tic Tac Toe Game
 
 A simple and interactive **Tic Tac Toe game** built with two different game modes: Player vs Computer and Two Player Mode. Players can enjoy the classic Tic Tac Toe experience, track their scores, and compete to win.
